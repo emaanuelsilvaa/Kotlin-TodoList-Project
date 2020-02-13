@@ -47,7 +47,7 @@ class DashBoardActivity : Activity() {
             val view = layoutInflater.inflate(R.layout.dialog_dashboard, null)
             val toDoName = view.findViewById<EditText>(R.id.ev_todo)
             dialog.setView(view)
-            dialog.setTitle("Add ToDo")
+            dialog.setTitle("Add Task")
             dialog.setPositiveButton("Add", { _: DialogInterface, _: Int ->
                 if(toDoName.text.isNotEmpty() ){
                     val toDo = ToDo()

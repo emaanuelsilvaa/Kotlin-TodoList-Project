@@ -43,7 +43,7 @@ class ItemActivity : AppCompatActivity() {
             val view = layoutInflater.inflate(R.layout.dialog_dashboard, null)
             val toDoName = view.findViewById<EditText>(R.id.ev_todo)
             dialog.setView(view)
-            dialog.setTitle("Add ToDo")
+            dialog.setTitle("Add Sub Task")
             dialog.setPositiveButton("Add", { _: DialogInterface, _: Int ->
                 if(toDoName.text.isNotEmpty() ){
                     val item = ToDoItem()
@@ -165,10 +165,6 @@ class ItemActivity : AppCompatActivity() {
             val edit : ImageView = v.findViewById(R.id.iv_edit)
             val delete : ImageView = v.findViewById(R.id.iv_delete)
             val move : ImageView = v.findViewById(R.id.iv_drag_and_drop)
-
-
-
-
         }
     }
 
