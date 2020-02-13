@@ -7,7 +7,7 @@ Simples todo list desenvolvida em kotlin.
 
 ## Executando o projeto
 
-![](src/assets/images/presentation.gif)
+![](app/src/assets/images/presentation.gif)
 
 
 ## Meta
