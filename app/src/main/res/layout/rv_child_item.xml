@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    
+    <CheckBox
+            android:id="@+id/cb_item"
+            android:textColor="@color/colorAccent"
+            android:shadowColor="#FFF"
+            android:textColorHint="#FFF"
+            android:buttonTint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:lines="@android:integer/config_mediumAnimTime"
+    />
+    <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_edit"
+            android:padding="8dp"
+            android:layout_toLeftOf="@+id/iv_delete"
+    />
+    <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_delete"
+            android:padding="8dp"
+            android:layout_toLeftOf="@+id/iv_drag_and_drop"
+    />
+    <ImageView
+            android:id="@+id/iv_drag_and_drop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_drag_and_drop"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+    />
+
+</RelativeLayout>
